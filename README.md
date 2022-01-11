@@ -15,3 +15,30 @@ This example tells us how to use React Native, Redux, and more.
   - Xcode 7.3+
 2. [CocoaPods](http://cocoapods.org) (only for iOS)
   - Version 1.0+ recommended (`gem install cocoapods --pre`)
+  
+  ## Setup
+
+1. **Clone the repo**
+
+  ```
+  $ git clone https://github.com/SWARNABHA1101/React-Native-first-app.git
+  $ cd react-native-first-app
+  ```
+  2. **Install dependencies** (npm v3+)
+
+  ```
+  $ npm install
+  $ (cd ios; pod install)       # only for iOS version
+  ```
+3. **Running on Android**
+
+  ```
+  $ react-native run-android
+  $ adb reverse tcp:8081 tcp:8081     # required to ensure the Android app can access the Packager server
+  ```
+
+4. **Running on iOS**
+
+  ```
+  $ react-native run-ios
+  ```
