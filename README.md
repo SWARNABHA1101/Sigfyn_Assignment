@@ -8,7 +8,9 @@ Link to Google Colab notebook for both the codes, please click on the below hype
 ## My First React Native App
 This is an example for `react-native`, which display the NBA informations, such as teams, players, and so on. Relative data is from `stat.nba.com`, you can reference the [wiki page](https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation) of `nba_py` on github.
 
-This example tells us how to use React Native, Redux, and more.
+This example tells us how to use React Native, Redux, and more.<br/>
+Github Repo Link for the React-Native App- https://github.com/SWARNABHA1101/React-Native-first-app
+
 ## Requirements
 
 1. [React Native](http://facebook.github.io/react-native/docs/getting-started.html) (follow iOS and Android guides)
